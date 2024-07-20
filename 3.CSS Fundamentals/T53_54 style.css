@@ -1,0 +1,23 @@
+div{
+    background-color: gray;
+    margin: 0px 50px;
+}
+a{
+    color: #444;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 20px;
+    text-transform: uppercase;
+}
+ul{
+    padding-left: 150px;
+}
+h1{
+    /* text-decoration: underline; */
+    border-bottom: 1px  solid black;
+}
+section{
+    margin: 0px 50px;
+}

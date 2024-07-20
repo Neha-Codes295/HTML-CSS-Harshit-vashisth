@@ -1,0 +1,42 @@
+/* Universal Selector */
+/* *{
+    color: blue;
+} */
+
+header{
+    background-color: #f0ebeb;
+}
+
+/* section ki class h jo my articles uspe kaam kro */
+section.my-articles{
+    background-color: #f2e9e9;
+}
+
+/* header k andr jitne bhi para h unpe kaam kro */
+/* descendant selector */
+header p{
+    color: red;
+}
+
+li a{
+    color: green;
+}
+
+/* saare child h2 ka clr chnage hoga */
+/* section.my-articles h2{
+    color: goldenrod;
+} */
+
+/* sirf direct child ka clr change hoga */
+section.my-articles > h2{
+    color: steelblue;
+}
+
+/* saare h2 k direct baad jitne bhi para honge unka clr change hoga */
+section.my-articles h2+p{
+    color: brown;
+}
+
+ul+p{
+    color:rgb(218, 17, 174) ;
+}

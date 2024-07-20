@@ -1,0 +1,39 @@
+h1{
+    color: green;
+}
+
+
+/* class ki preference zda hoti h as compared to normal html elements cz ye zda specific hoti h i.e.
+class selecytor > element selector */
+
+/* #h1id{
+    color: blueviolet;
+} */
+/* id > class > element (specificity) */
+
+
+/* pr inse bhi zyada style attribute ki specificity h jo ki inline likha h html file mei
+/* inline style attribute > id > class > element (specificity) */
+
+
+/* #h1id{
+    color: yellowgreen !important;
+}
+/* important likhnew se iski specificity bhot badh jayegi and fir yahi implement hoga   */
+
+
+
+.h1class{
+    color: red;
+}
+.heading{
+    color: magenta;
+}
+/* S: 0,0,1,0 (10) */
+/* ab ye class h dono hi , same specificity to jo niche likhe h vo implememnt hoga */
+
+h1.heading{
+    color: brown;
+}
+/* S: 0,0,1,1 (11) */
+/* ab iski specificity bdh gyi h */

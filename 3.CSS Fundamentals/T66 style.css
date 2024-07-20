@@ -1,0 +1,33 @@
+body :not(p){
+    /* body k vo sare elt jo para nhi h, unko clr krdo */
+    color: blue;
+}
+
+body :not(.fancy){
+    color: red;   
+}
+
+div:empty{
+    background-color: #222;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+:root{
+    /* ye hmaare root elt ko select krta h */
+    /* root use krte h css k variables bnane k liye */
+    background: #333;
+    color: #eee
+}
+/* root ya html same hi baat h */
+/* html{
+    background: red;
+    color: white;
+} */
+
+/* pr hm root ya html use ni krte, body use krte h */
+/* body{
+    background: #222;
+    color: #eee;
+} */

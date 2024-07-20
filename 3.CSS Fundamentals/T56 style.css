@@ -1,0 +1,14 @@
+/* Browser ne kuch default css dekr rkha hota h, inspect kro, u'll let to know */
+/* To reset def css browser style: do  */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    margin: 10px;
+}
+p{
+    margin: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,18 @@
+/* classes k liye single colon likhte the, elements k liye double likhenge */
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    font-size: 32px;
+}
+
+/* first-line & first-letter pseudo elt works with only block level elements */
+
+p::selection{
+    background: black;
+    color: white;
+    /* jb text ko select krenge to ye implement hoga */
+    /* starting mei p likhoge to para pr lgega , h1 likhoge to uspr, agr sirf ::selection likhoge to sari body pr */
+}

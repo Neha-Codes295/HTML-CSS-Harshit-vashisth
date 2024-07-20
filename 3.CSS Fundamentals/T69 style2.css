@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* default browser css htadia h */
+
+h1{
+    margin: 5px;
+}
+
+p{
+    margin: 10px;
+}
+
+body{
+    color: red;
+}
+
+ul{
+    color: blue;
+}
+
+.box1{
+    border: 20px solid green;
+    margin-bottom: 10px;
+    width: 200px;
+    box-sizing: border-box;
+    /* total size hi 200px rhega, chaahe kuch bhi add kro */
+    padding: 10px;
+}
+
+.box2{
+    border: 20px solid black;
+    width: 200px;
+    box-sizing: content-box;
+    padding: 10px;
+}
+
+
+/* baaki pseudo classes nd elements vala h, video nd notes dekhlo */

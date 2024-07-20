@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1, .box2{
+    border: 2px solid #444;
+    padding: 10px;
+}
+
+.box1{
+    margin-bottom: 40px;
+}
+
+.box1{
+    margin-top: 50px;
+}
+/* ab now acc to us , dono box mei 90 ka margin hona chahiye tha but aisa nhi h jitna lotted h utna hi h, beech mei 50pz ka *gap* h sirf , this is margin collapsing, i.e. jiska margin zada h vo count hoga */

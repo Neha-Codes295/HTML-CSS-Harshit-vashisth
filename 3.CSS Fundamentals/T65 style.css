@@ -1,0 +1,23 @@
+/* ek ko implemnt krna h dusre ko comment krdo */
+
+p:nth-child(2){
+    /* jis hi child ka krna h, bracket mei no. likhdo */
+    color: magenta;
+
+    /* vo para jo apne parent ka 2nd child h, usko clr dedo */
+}
+
+p:nth-child(2n+1){
+    /* hr 2n+1 child ko */
+    color: brown
+}
+
+p:nth-of-type(3n){
+    /* parent ka hr 3nth para */
+    color: red;
+}
+
+ul li:nth-child(2n){
+    color: blue;
+    background-color: lightcoral;
+}

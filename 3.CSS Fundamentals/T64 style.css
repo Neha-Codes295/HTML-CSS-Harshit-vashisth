@@ -1,0 +1,9 @@
+p:last-child{
+    /* apne parent ka last child */
+    color: brown;
+}
+
+p:last-of-type{
+    /* parent ka last p */
+    color: red;
+}
