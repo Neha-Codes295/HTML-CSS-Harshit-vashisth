@@ -1,0 +1,15 @@
+HTML: Hyper Text Markup Language
+. used to create Web pages
+
+CSS: Cascading Style Sheets
+. used to style HTML pages
+
+Text Editors:
+.Notepad
+.Notepad++
+.Bracket
+.Sublime
+.Atom
+.VSCode***
+
+T2 and T3 of chp 1 is just use of vscode
