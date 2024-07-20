@@ -1,0 +1,48 @@
+/* by default bs elt ki position rhti h static */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    border: 8px solid green;
+    margin: 50px 0px;
+}
+
+.container h1{
+    border: 4px solid red;
+    background: lightyellow;
+    /* position: static; */
+    /* jaha h vhi rhega , page mmove krenge to bhi move krega */
+
+    /* position: relative;
+    top: 50px; */
+    /* apni og position se top se 50px space lega, parent k respect mei */
+    /* left: 50px;
+
+    z-index: -1; */
+    /* overlap htane k liye */
+
+    position: absolute;
+    /* elt, doc k bahr ho jayega */
+    top: 0px;
+    right: 0px;
+    transform: translate(-50%, -50%); 
+    /* ye h x & y axis mei shift krne k liye */
+}
+
+h3{
+    background: black;
+    color: #fff;
+    /* position: fixed;
+    /* ek hi jgh chipk jayega */
+    /* bottom: 0px; */ 
+
+
+    position: sticky;
+    /* jb scroll krenge tb to sticked rhega vahi pr jb parent ki visible page se ht jaye to fir visible ni hoga */
+}
+.container p{
+    border: 4px solid purple;
+    background: lightgray;
+}

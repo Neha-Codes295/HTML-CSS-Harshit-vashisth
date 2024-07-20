@@ -1,0 +1,16 @@
+div{
+    font-size: 20px;
+    border: 2px solid red;
+    width: 50%;
+}
+
+/* 16px = 100% (usually) */
+p{
+    border: 1px solid green;
+    font-size: 200%;
+    /* p 100% apne parent ka lega i.e. 10px */
+    width: 50%;
+    text-align: center;
+    background: lightblue;
+    margin: 2px auto;
+}

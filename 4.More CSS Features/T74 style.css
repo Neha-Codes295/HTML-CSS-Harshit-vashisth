@@ -1,0 +1,14 @@
+h1{
+    /* parent ka size(16px default) ka multiple ho jayega */
+    font-size: 2em;
+    border: 2em solid black; 
+    /* 32px ka border ara h */
+    padding: 3em;
+    /* 120px(2*20px *3) ki padding */
+}
+
+.box1{
+    font-size: 20px;
+    /* border: 2em solid black;  */
+    /* 80 px ka border aara h */
+}

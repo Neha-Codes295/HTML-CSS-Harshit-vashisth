@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.fav{
+    border: 10px solid green;
+}
+
+.mozart{
+    width: 25%;
+    /* border: 4px solid red; */
+    background-color: lightgoldenrodyellow;
+    float: left;
+    padding: 20px;
+}
+
+.beethoven{
+    width: 25%;
+    float: right;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+.bach{
+    width: 25%;
+    float: left;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.paganini{
+    width: 25%;
+    float: left;
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+.clearfix{
+    clear: both;
+    /* left ya right dono saath mei hta denge */
+    /* or mozart and beethoven green border k andr hi rhenge */
+}
+
+.fav::after{
+    content: "";
+    display: block;
+    clear: both;
+}

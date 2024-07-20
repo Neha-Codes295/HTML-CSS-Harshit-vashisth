@@ -1,0 +1,31 @@
+/* viewport mtlb diff devices mei how will our page look like
+vw: viewport width
+vh: viewport height */
+h2{
+    border: 20px solid red;
+    /* width: 50%; */
+    /* viewport width - vw */
+    width: 50vw;
+}
+h1{
+    border: 2px solid blue;
+    width: 80vw;
+    /* parent ki care ni krega, cmplt viewport width ko dekhkr , uska 50% lega */
+    
+}
+.box{
+    border: 4px solid green;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    /* apne parent ka 50% lega */
+}
+.box1{
+    background-color: lightblue;
+    width: 100px;
+    /* height: 100vh; */
+    /* height: 10vmin; */
+    /* jitni h h utni hi w ho jayegi */
+    height: 10vmax;
+    /* jitni w hogi utni hi h ho jayegi */
+}
