@@ -1,0 +1,3 @@
+ye bhi flex item ki property hye bhi flex item pe use krte h
+it is the initial length of item, main axis ki trf
+flex-basis: 900px;

@@ -1,0 +1,12 @@
+Flexbox Terminology
+Main size
+Main axis(left se right)
+main start, main end
+Cross size 
+Cross axis(top se down)
+cross start, cross end
+Flex container
+Flex item
+
+Next hum Flexbox Properties ki baat krenge
+flex item ki alg hoti h , flex container ki alg

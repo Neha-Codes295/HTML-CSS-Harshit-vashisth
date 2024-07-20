@@ -1,0 +1,4 @@
+Flex Wrap (Cross axis ki direction change hogi)
+.wrap (top se down)
+.wrap-reverse (down se top)
+.no wrap

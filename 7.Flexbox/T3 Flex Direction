@@ -1,0 +1,5 @@
+Flex Direction (direction of main axis)
+.row (left se right) (by default)
+.row-reverse (right se left)
+.column (top se bottom)
+.column-reverse (bottom se top)

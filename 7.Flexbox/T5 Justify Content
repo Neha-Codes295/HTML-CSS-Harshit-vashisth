@@ -1,0 +1,5 @@
+ye prop flex items ko align krta h main axis ki trf
+.flex-start(mtkb jidhr se main axis start hori h udhr justify ho jayega)
+.flex-end(mtkb jidhr se main axis end hori h udhr justify ho jayega)
+.flex-center(mtkb main axis k center mei justify ho jayega)
+.space-between(space add kr dega flex items k beech mei) (used most of the times)

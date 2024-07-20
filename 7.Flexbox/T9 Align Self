@@ -1,0 +1,5 @@
+yr flex item ki property h
+un 5 box mei se jispe bhi vo likhenge uspr hi sirf implement hogi
+align-self: flex-end;
+sirf ye box end mei hoga baki sb start pe
+align-self: flex-end; align-self: flex-start; align-self: stretch;

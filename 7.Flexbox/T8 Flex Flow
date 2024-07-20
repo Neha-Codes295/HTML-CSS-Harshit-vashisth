@@ -1,0 +1,4 @@
+flex-direction: row;
+flex-wrap: wrap; */
+/* isko replace kr skte h with below line
+flex-flow: row wrap;
