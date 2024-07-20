@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="./Extra/Thanku.html" method="get">
+        <label for="user">Username : </label>
+        <input type="text" id="user" placeholder="your name" required>
+        <br><br>
+        <label for="key">Password: </label>
+        <input type="password" id="key" placeholder="your password" required>
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="your email" required>
+        <br><br>
+        
+        <p>Select Your Gender: </p>
+        <label for="m">Male</label>
+        <input type="radio" name="Gender" id="m" value="Male"><br>
+        <!-- value daalne se agr backend ya kahi bhi bhejna h data to koi dikkt ni hogi, bhej skte h -->
+        <label for="f">Female</label>
+        <input type="radio" name="Gender" id="f" value="Female"><br>
+        <label for="t">TransGender</label>
+        <input type="radio" name="Gender" id="t" value="TransGender">
+        <!-- yaha name same daalne ka sense ye h ki koi ek hi value select ho, agr name na likho to sb kuch hi select kr skte h -->
+        <br><br>
+        <input type="submit" value="Sign in">
+    </form>
+</body>
+</html>
