@@ -1,9 +1,0 @@
-p:first-child{
-    /* agr koi p apne parent ka pehla child h toh: */
-    color: red;
-}
-
-p:first-of-type{
-    /* apne parent k phle p ko */
-    color: blueviolet;
-}
