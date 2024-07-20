@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbcbcb;
+}
+
+h1, h2{
+    border: 2px solid #000000;
+    width: 500px;
+    height: 50px;
+
+
+    /* display: inline; */
+    /* block level se inline mei change ho jayega */
+}
+
+h1{
+    margin: 25px;
+    padding: 10px;
+}
+
+a{
+    border: 2px solid #ff0000;
+    /* width: 500px;
+    height: 200px; */
+    /* koi frk ni pdta h height & width pr */
+    
+    margin: 50px;
+    /* margin sirft left, right mei aata h but top, bottom mei nhi ata */
+    
+    padding: 0 30px;
+    /* padding hr jgh lg jati h */
+
+
+    /* display: block; */
+    /* inline se block level mei change ho jayega */
+}

@@ -1,0 +1,19 @@
+p{
+    font-size: 20px;
+
+    line-height: 50px;
+    /* space diff btwn 2 lines */
+
+    word-spacing: 10px;
+    /* 2 words k beech ka space diff */
+    
+    letter-spacing: 2px;
+    /* 2 letters k beech ka space diff */
+}
+h1{
+    font-size: 50px;
+    /* text-decoration: underline wavy blue; */
+    /* anchor tag ko text decor mei underline by default hoti h */
+    /* text-decoration: overline; */
+    text-decoration: line-through wavy red; 
+}

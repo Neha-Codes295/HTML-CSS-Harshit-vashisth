@@ -1,0 +1,24 @@
+
+h1{
+    background-color: lightblue;
+
+    text-align: center;
+    /* ab chaahe width jitni bhi krlo, text center mei hi aayega */
+    width: 500px;
+
+    /* text ko righgt, left mei bhi align kr skte + padding bhi de skte */
+}
+/* ye to thi block lvl elt ki baat */
+
+
+
+/* ab baat krte h inline elt ki */
+a{
+    background-color: lightcoral;
+    /* ye center ni ho skta */
+
+    /* display: inline-block;
+    width: 500px;
+    text-align: right; */
+    /* ab center ho jayga */
+}

@@ -1,0 +1,10 @@
+open any webpage and click on 3 horizontal lines on rhs, click more tools then developer tools
+ya right click krke inspect 
+ya press f12
+front & backend dev, dono iska use krte h
+In Elements, right click krke Edit as HTML
+yaha kisi bhi text ko click kro , inspect kro, then elements mei right click then copy ->copy Selector, fir sources mei aao, css file pe paste krdo and changes krdo
+In Console, JS k liye use krenge
+In Sources, btata h ki kon kon se4 sources h
+Toggle Device Tool, mtlb diff devices mei hmara webpage kaisa dikhega, isko tb us ekrte h jb hm hamri website ko responsive bna re hote h
+***BOX Model
