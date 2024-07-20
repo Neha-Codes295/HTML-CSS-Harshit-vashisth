@@ -1,0 +1,42 @@
+html{
+    font-size: 10px;
+}
+    
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightcyan;
+}
+
+h1{
+    font-size: 7rem;
+    /* 7 times of root elt */
+}
+
+p{
+    font-size: 5rem;
+}
+
+/* media ka code hmesha niche hi likhna h */
+@media (max-width: 500px){
+    html{
+        font-size: 5px;
+    }
+    body{
+        background: lightcoral;
+    }
+}
+@media (min-width: 501px) and (max-width:768px){
+    body{
+        background: lightgoldenrodyellow;
+    }
+}
+@media (min-width: 1025px) and (max-width:1200px){
+    body{
+        background: lightsalmon;
+    }
+}
+@media (min-width: 1201px){
+    body{
+        background: lightskyblue;
+    }
+}
